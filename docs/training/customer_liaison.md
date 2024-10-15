@@ -4,12 +4,13 @@ description: So you want to be a customer liaison? You've come to the right plac
 ---
 So you want to be a Customer Liaison? You've come to the right place!
 
-## Purpose
-The purpose of the Customer Liaison is to be the primary individual in charge of notifying our customers of the current conditions, and informing the Incident Commander of any relevant feedback from customers as the incident progresses.
+## 目的
 
-It's important for the rest of the command staff to be able to focus on the problem at hand, rather than worrying about crafting messages to customers.
+カスタマー・リエゾンの目的は、お客様に現在の状況をお知らせし、インシデントが進行するにつれ、お客様からの関連するフィードバックをインシデントコマンダーにお伝えする主要な担当者となることです。
 
-Your job as Customer Liaison is to listen to the call, watch the incident Slack room, and track incoming customer support requests, keeping track of what's going on and how far the incident is progressing (still investigating vs close to resolution). The Incident Commander will instruct you to notify customers of the incident and keep them updated at various points throughout the call. You will be required to craft the message, gain approval from the IC, and then disseminate that message to customers.
+他の指揮スタッフにとって重要なのは、お客さまへのメッセージの作成に頭を悩ませるのではなく、目の前の問題に集中できるようにすることです。
+
+カスタマーリエゾンとしてのあなたの仕事は、通話を聞き、インシデントのSlackルームを監視し、入ってくるカスタマーサポートリクエストを追跡し、何が起こっているのか、インシデントがどの程度進行しているのか（まだ調査中か、解決間近か）を把握することです。インシデントコマンダーは、顧客にインシデントを通知し、通話中のさまざまな時点で最新情報を提供するよう指示します。あなたはメッセージを作成し、ICの承認を得て、そのメッセージを顧客に広める必要がある。
 
 ## Prerequisites
 Before you can be a Customer Liaison, it is expected that you meet the following criteria. Don't worry if you don't meet them all yet, you can still continue with training!
