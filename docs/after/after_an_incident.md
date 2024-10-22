@@ -1,5 +1,5 @@
 ---
-- cover: assets/img/covers/resolved.png
+cover: assets/img/covers/resolved.png
 - description: 重大な障害の後に何をすべきかに関する情報。フォローアップと事後レビュー手続き
 ---
 重大な障害（インシデント）の後に何をすべきかに関する情報。フォローアップと事後レビュー手続き。
