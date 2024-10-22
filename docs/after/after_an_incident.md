@@ -1,55 +1,55 @@
 ---
 cover: assets/img/covers/resolved.png
-description: Information on what to do after a major incident. Our followup and after action review procedures.
+description: 重大な障害の後に何をすべきかに関する情報。フォローアップと事後レビュー手続き
 ---
-Information on what to do after a major incident. Our follow-up and after action review procedures.
+重大な障害（インシデント）の後に何をすべきかに関する情報。フォローアップと事後レビュー手続き。
 
-## Follow-up Actions for Response Roles
-In addition to any direct follow-up items generated from an incident, each of our response roles will have a few standard follow-up tasks. These are generally lightweight actions that ensure we organize information and followup with customers appropriately.
+## 役割ごとのフォローアップアクション
+インシデントから生成された直接的なフォローアップ項目に加えて、私たちの各対応役割にはいくつかの標準的なフォローアップタスクがあります。これらは一般的に軽量なアクションであり、情報を整理し、顧客に適切にフォローアップすることを保証します。
 
-### Steps for Incident Commander
+### インシデント統率者の手順
 
-1. Update the incident in PagerDuty.
-    * Group any related incidents under the primary incident.
-    * Set the final severity of the incident.
-    * Resolve the incident.
+1. インシデントをPagerDutyで更新する。
+    * 関連するインシデントをすべて主要なインシデントの下にまとめてください。
+    * インシデントの最終的な重大度を設定します。
+    * インシデントを解決する。
 
-1. Create the postmortem, and assign an owner to the postmortem for the incident.
+1. ポストモーテムを作成し、インシデントのポストモーテムのオーナーを割り当てます。
 
-1. Send out an internal email to the relevant stakeholders explaining that we had an incident, provide a link to the postmortem.
+1. 関連する利害関係者に内部メールを送信し、インシデントが発生したことを説明し、事後分析へのリンクを提供します。
 
-1. Occasionally check on the progress of the postmortem to ensure that it is completed within the desired time frame.
+1. 時々、進捗状況を確認して、希望する時間枠内に完了するようにしてください。
 
-### Steps for Deputy
-There are no additional steps after an incident is resolved. However, the IC may ask for your help with their steps.
+### 代理の手順
+インシデントが解決された後に追加の手順はありません。しかし、ICは彼らのステップであなたの助けを求めるかもしれません。
 
-### Steps for Scribe
+### スクライブの手順
 
-1. Review the chat communications and extract any relevant items from key events.
+1. チャット通信を確認し、重要なイベントから関連する項目を抽出します。
 
-1. Collect all `TODO` items and add them to the postmortem.
+1. すべての`TODO`項目を収集し、それらを事後分析に追加します。
 
-### Steps for Subject Matter Experts 
+### 事象の専門家のためのステップ 
 
-1. Add any notes you think are relevant to the postmortem.
+1. ポストモーテムに関連すると思われるメモを追加してください。
 
-### Steps for Customer Liaison
+### 顧客連絡の手順
 
-1. Reply to any customer enquiries we received about the incident.
+1. インシデントに関して受け取った顧客からの問い合わせに返信してください。
 
-1. Follow the postmortem progress, and update our status page with the external message once it is available.
+1. ポストモーテムの進捗を追跡し、外部メッセージが利用可能になったらステータスページを更新してください。
 
-### Steps for Internal Liaison
-There are no additional steps after an incident is resolved. However the IC may ask for your help with answering questions from internal stakeholders.
+### 内部連絡の手順
+インシデントが解決された後に追加の手順はありません。ただし、ICは内部関係者からの質問に答える際にあなたの助けを求めることがあります。
 
-## Reviewing the Incident
-It's important that we review the incident in detail to see exactly what went wrong, why it went wrong, and what we can do to make sure it doesn't happen again. These take many names; after-action reviews, incident review, follow-up review, etc. We use the term postmortem.
+## インシデントのレビュー
+今回のインシデントがどのようにして起こったのか、なぜ起こったのか、そして再発を防ぐために何ができるのかを詳しく検討することが重要です。これらは多くの名称があります。事後レビュー、インシデントレビュー、フォローアップレビューなど。ポストモーテムという用語を使用します。
 
-You can read all about our [postmortem process](post_mortem_process.md), which goes over this in more detail.
+私たちの[事後分析プロセス](post_mortem_process.md)について詳しく読むことができます。これについてさらに詳しく説明しています。
 
-## Reviewing the Process
-As well as reviewing the incident, it's important to review our process. Did we handle the incident well, or are there things we could have done better?
+## プロセスのレビュー
+インシデントをレビューするだけでなく、プロセスを見直すことも重要です。インシデントをうまく処理できましたか、それとも改善できる点がありましたか？
 
-This review isn't very formal yet, and typically involves a few of the Incident Commanders getting together to discuss how we might have done things differently, or if there are any tweaks we can make to our incident response process.
+このレビューはまだあまり正式ではなく、通常は数人のインシデントコマンダーが集まって、どのようにすれば違ったことができたか、またはインシデント対応プロセスに何か調整を加えることができるかどうかを話し合うことが含まれます。
 
-If you're interested in joining these meetings, just let one of the Incident Commanders know and we'll be sure to invite you.
+これらの会議に参加したい場合は、統率者の一人に知らせてください。必ず招待します。
