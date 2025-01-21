@@ -29,7 +29,7 @@ cover: assets/img/covers/alerting\_principles.png description:私たちは、単
 ![中程度の緊急度](../assets/img/screenshots/high_business_hours.png)
 
 #### "SSL証明書の有効期限は1週間です。"
-これは、**Low**　priorityになり、いずれ人間の行動が必要になりますが緊急性は低いです。
+これは、**Low** priorityになり、いずれ人間の行動が必要になりますが緊急性は低いです。
 
 ![低緊急度](../assets/img/screenshots/low_urgency.png)
 
