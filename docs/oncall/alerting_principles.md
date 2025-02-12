@@ -18,25 +18,26 @@ description: We manage how we get alerted based on a simple principle, an alert 
 
 新しいアラート/通知を設定する際は、上記の表を参考に、どのようにして人々にアラートを通知したいかを検討してください。例えば、即時の対応が必要でない場合は、優先度の高いアラートを新たに作成しないように注意してください。
 
-## Priority Examples
+## 優先度の例
 
-#### "Production service is failing for 75% of requests, automation is unable to resolve."_
-This would be a **High** priority page, requiring immediate human action to resolve.
+#### "プロダクション環境では75%のリクエストが失敗しており、オートメーションでは解決できません。"_
+これは **高優先度** のアラートであり、即時に人間が対応して解決する必要があります。
 
 ![High Urgency](../assets/img/screenshots/high_urgency.png)
 
-#### "Production server disk space is filling, expected to be full in 48 hours. Log rotation is insufficient to resolve."
-This would be a **Medium** priority page, requiring human action soon, but not immediately.
+#### "本番環境にあるサーバーのディスク容量が満杯になりつつあり、48時間以内にディスクフルになる見込みです。ログローテーションでは解決できません。"
+これは **中優先度** のアラートで、即時対応は必要ではありませんが、近いうちに人的対応が必要です。
 
 ![Medium Urgency](../assets/img/screenshots/high_business_hours.png)
 
-#### "An SSL certificate is due to expire in one week."
-This would be a **Low** priority page, requiring human action some time soon.
+#### "SSL証明書の有効期限が1週間後に切れます。"
+これは **低優先度** のアラートで、近いうちに人的対応が必要です。
+
 
 ![Low Urgency](../assets/img/screenshots/low_urgency.png)
 
-#### "A deployment was successful."
-This would be a **Notification**, and should be sent as a suppressed event. It provides useful context should an incident occur, but does not require notifying a human.
+#### "デプロイが成功しました。"
+これは **通知** であり、抑制されたイベントとして送信されるべきです。インシデントが発生した場合に役立つ情報を提供しますが、人間に通知する必要はありません。
 
 ![Notification](../assets/img/screenshots/suppressed.png)
 
