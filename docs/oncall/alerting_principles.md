@@ -2,21 +2,21 @@
 cover: assets/img/covers/alerting_principles.png
 description: We manage how we get alerted based on a simple principle, an alert is something which requires a human to perform an action. Anything else is a notification, which is something that we cannot control, and for which we cannot make any action to affect it. Notifications are useful, but they shouldn't be waking people up under any circumstance.
 ---
-We manage how we get alerted based on a simple principle. **An alert is something which requires a human to perform an action**. Anything else is a notification, which is something that we cannot control, and for which we cannot make any action to affect it. Notifications are useful, but they shouldn't be waking people up under any circumstance.
+私たちは、シンプルな原則に基づいてアラートを管理しています。**アラートとは、人間がなんらかの行動を起こす必要があるものを指します。** それ以外のものは通知であり、それを制御することも、それに影響を与えるような行動を取ることもできません。通知は有用ですが、どのような状況であっても人を起こしてはいけません。
 
 ## Alert Priority
 
-!!! warning "High Priority Alerts"
-    Anything that wakes up a human in the middle of the night should be **immediately human actionable**. If it is none of those things, then we need to adjust the alert to not page at those times.
+!!! warning "優先度の高いアラート"
+    真夜中に人を呼び起こすようなことは、**即座に人間が対応できるもの** でなければなりません。そうでない場合は、その時間帯にはアラートが鳴らないように調整する必要があります。
 
-| Priority | Alerts | Response |
+| 優先度 | アラート | 対応 |
 | -------- | ------ | -------- |
-| High | High-Priority PagerDuty Alert 24/7/365. | Requires **immediate human action**. |
-| Medium | High-Priority PagerDuty Alert during **business hours only**. | Requires human action within 24 hours. |
-| Low | Low-Priority PagerDuty Alert 24/7/365. | Requires human action at some point. |
-| Notification | Suppressed PagerDuty Event. | No response required. Informational only. |
+| 高 | 24時間365日体制の高優先度アラート | **直ちに人間が対応する** 必要がある。 |
+| 中 |  通常業務時間帯の高優先度アラート | 24時間以内に人間が対応する必要がある。 |
+| 低 | 24時間365日体制の低優先度アラート | いずれは人間が対応する必要がある。 |
+| 通知 | 抑制されたイベント | 情報提供のみ、対応は不要。 |
 
-If you're setting up a new alert/notification, consider the chart above for how you want to alert people. Be mindful of not creating new high-priority alerts if they don't require an immediate response, for example.
+新しいアラート/通知を設定する際は、上記の表を参考に、どのようにして人々にアラートを通知したいかを検討してください。例えば、即時の対応が必要でない場合は、優先度の高いアラートを新たに作成しないように注意してください。
 
 ## Priority Examples
 
