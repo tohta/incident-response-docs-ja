@@ -19,7 +19,7 @@ cover: assets/img/covers/alerting\_principles.png description:私たちは、単
 
 ## 優先度の例
 
-#### "プロダクションサービスがリクエストの75%で失敗し、自動化が解決できません。"_
+#### "プロダクションサービスがリクエストの75%で失敗し、自動化では解決できません。"_
 これは、**High** priority ページになり、解決するためにすぐに人間のアクションが必要になります。
 
 ![緊急性が高い](../assets/img/screenshots/high_urgency.png)
