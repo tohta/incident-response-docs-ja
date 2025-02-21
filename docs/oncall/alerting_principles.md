@@ -25,7 +25,7 @@ cover: assets/img/covers/alerting\_principles.png description:私たちは、単
 ![緊急性が高い](../assets/img/screenshots/high_urgency.png)
 
 #### "プロダクション・サーバーのディスク領域がいっぱいになり、48時間でいっぱいになると予想されます。ログのローテーションでは解決できません。"
-これは**Medium** priorityとなり、すぐに人間の行動が必要になりますが、直ちに今すぐというほどではありません。
+これは**Medium** priorityとなり、いずれ人間の行動が必要になりますが、直ちに今すぐというほどではありません。
 
 ![中程度の緊急度](../assets/img/screenshots/high_business_hours.png)
 
