@@ -10,7 +10,7 @@ cover: assets/img/covers/alerting\_principles.png description:私たちは、単
 
 | 優先度 | アラート | 応答 |
 | -------- | ------ | -------- |
-| 高 | PagerDuty Alert 24/7/365. |  **即時の人間の行動**必要. |
+| 高 | PagerDuty Alert 24/7/365. |  **即時の人間の行動**が必要. |
 | 中 | 優先度の高いPagerDuty Alert **営業時間のみ**. | 24時間以内の人間の行動が必要 |
 | 低 | 優先度の低いPagerDuty Alert 24/7/365 | ある時点での人間の行動が必要 |
 | 通知 | 抑制されたPagerDuty イベント | 応答不要。情報提供のみ。 |
