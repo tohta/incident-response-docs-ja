@@ -56,9 +56,9 @@ cover: assets/img/covers/alerting\_principles.png description:私たちは、単
   * <span class="icon bad"></span> ディスクがいっぱいです。
   * <span class="icon good"></span> このホストのディスクの容量は80% です。いっぱいになりすぎると、新しいファイルが作成されず、現在のファイルが書き込まれないため、システムが不安定になることがあります。
 
-#### 問題を解決するための明確な手順を提供するか、ランブックにリンクします。これらのいずれもないアラートは役に立たない。
-  * <span class="icon bad"></span> 何かを削除して修正します。
-  * <span class="icon good"></span> ディスクスペースの問題を特定して解決するには、次のランブックを参照してください。https://example.com/run book/disk.さらに、ログローテーションのしきい値でこの問題が再発しないようにできるかどうかを調べる必要があります。以下の実行ブックには、必要な手順があります。https://example.com/run book/log-rotate
+#### 問題を解決するための明確な手順、または手順書へのリンクを提供します。これらのいずれもないアラートは有用ではありません。
+  * <span class="icon bad"></span> 何かを削除して問題を解決しましょう。
+  * <span class="icon good"></span> ディスクスペースの問題を特定して解決するには、次の手順書を参照してください：https://example.com/runbook/disk . さらに、ログローテーションのしきい値でこの問題が再発しないようにできるかどうかを調べる必要があります。以下の手順書には、必要な手順が記載されています：https://example.com/runbook/log-rotate .
 
 
 ## アラートのテスト
