@@ -48,7 +48,7 @@ cover: assets/img/covers/alerting\_principles.png description:私たちは、単
   * <span class="icon bad"></span> 警告:何か問題があった。
   * <span class="icon good"></span> ディスクは `prod-web-loadbalancer-af5462ce` で 80% フルです。
 
-#### アラートをトリガーしたメトリクスは、本体のどこかに含まれていることを確認してください。
+#### アラートをトリガーしたメトリクスを、アラートの内容に含めるようにしましょう。
   * <span class="icon bad"></span> ディスクのディスク容量がいっぱいになっています。
   * <span class="icon good"></span> `avg(last_1h):max:system.disk.in_use{env:prod-web-loadbalancer} by {host} > 0.8`
 
