@@ -52,7 +52,7 @@ cover: assets/img/covers/alerting\_principles.png description:私たちは、単
   * <span class="icon bad"></span> ディスクのディスク容量がいっぱいになっています。
   * <span class="icon good"></span> `avg(last_1h):max:system.disk.in_use{env:prod-web-loadbalancer} by {host} > 0.8`
 
-#### ボディには、実際の問題が何であるか、そしてなぜ問題なのかについての説明も含めるべきです。
+#### アラートの内容には、実際どのような問題なのか、そしてなぜ問題なのかについての説明も含めましょう。
   * <span class="icon bad"></span> ディスクがいっぱいです。
   * <span class="icon good"></span> このホストのディスクの容量は80% です。いっぱいになりすぎると、新しいファイルが作成されず、現在のファイルが書き込まれないため、システムが不安定になることがあります。
 
